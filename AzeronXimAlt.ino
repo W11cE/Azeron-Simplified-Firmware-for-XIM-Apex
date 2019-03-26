@@ -21,9 +21,13 @@
 #define BUTTON_T4_P4	9	//17
 #define BUTTON_T3_P5	3	//18
 #define BUTTON_T4_P5	10	//19
-#define BUTTON_THUMB_3	38	//20 , Button above the thumbstick.
-#define BUTTON_THUMB_1	18	//21 , Button on the thumbstick.
-#define BUTTON_THUMB_2	12	//22 , Button next to the thumbstick.
+#define BUTTON_THUMB_1	18	//20 , Button on the thumbstick.
+#define BUTTON_THUMB_2	12	//21 , Button next to the thumbstick.
+#define BUTTON_DPAD_CENTER	38	//22 , Button above the thumbstick.
+#define BUTTON_DPAD_LEFT	43	//23
+#define BUTTON_DPAD_RIGHT	45	//24
+#define BUTTON_DPAD_UP		42	//25
+#define BUTTON_DPAD_DOWN	44	//26
 
 const int DigitalButtons[] = {
 	 BUTTON_T1_P1,
@@ -45,9 +49,13 @@ const int DigitalButtons[] = {
 	 BUTTON_T4_P4,
 	 BUTTON_T3_P5,
 	 BUTTON_T4_P5,
-	 BUTTON_THUMB_3,
 	 BUTTON_THUMB_1,
-	 BUTTON_THUMB_2
+	 BUTTON_THUMB_2,
+	 BUTTON_DPAD_CENTER,
+	 BUTTON_DPAD_LEFT,
+	 BUTTON_DPAD_RIGHT,
+	 BUTTON_DPAD_UP,
+	 BUTTON_DPAD_DOWN
 };
 
 #define SWITCH_1		14
